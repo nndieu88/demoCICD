@@ -34,4 +34,4 @@ jobs:
         run: |
           docker run -d -p 8080:8080 \
           -e spring.datasource.url=jdbc:mysql://host.docker.internal:3006/myDb?createDatabaseIfNotExist=true
-          --name application ${{ DOCKER_HUB_USERNAME }}/demo:latest
+          --name application ${{ secrets.DOCKER_HUB_USERNAME }}/demo:latest
