@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: demo
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: admin
+    url: jdbc:mysql://localhost:3006/myDb?createDatabaseIfNotExist=true
+#    url: jdbc:mysql://host.docker.internal:3006/myDb?createDatabaseIfNotExist=true
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+server:
+  port: 8080
