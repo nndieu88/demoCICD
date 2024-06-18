@@ -28,7 +28,7 @@ jobs:
         run: docker build -t app .
 
       - name: Push Docker image
-        run: docker push dieunn/demo
+        run: docker push dieunn/app
 
       - name: Deploy Docker container
         run: |
