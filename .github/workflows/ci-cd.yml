@@ -34,6 +34,6 @@ jobs:
     needs: build
     runs-on: ubuntu-22.04
 
-    steps:
-      - name: Load Docker image on VPS
-        run: curl https://dieunn.textvault.site/webhook
+#    steps:
+#      - name: Load Docker image on VPS
+#        run: curl https://dieunn.textvault.site/webhook
