@@ -36,4 +36,4 @@ jobs:
 
     steps:
       - name: Load Docker image on VPS
-        run: curl https://dieunn.textvault.site//webhook
+        run: curl https://dieunn.textvault.site/webhook
